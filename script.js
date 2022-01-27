@@ -2,7 +2,7 @@ const ejercicio1 = [
   3, 100, 85, 64, 46, 39, 40, 30, 20, 24, 25, 6, 10, 54, 82, 71, 67, 77, 17, 29,
   19, 88, 456, 13, 23, 24,
 ];
-
+/*
 for(i=0;i<ejercicio1.length;i++){
   num = ejercicio1[i]
   if (num ===3 ){
@@ -12,7 +12,7 @@ console.log(num)
     console.log (num)
   }
 }
-
+*/
 
 const ejercicio2 = [
   {nombre: "Gabriel", edad: 22, esFamiliar: false,
@@ -35,10 +35,19 @@ for (i=0; i<ejercicio2.length;i++){
   }
   //console.log(ejercicio2[i].nombre)
 }
-
 */
 
 
+let a = 0;
+let b = 1;
+
+for(i=0;i<50;i++){
+  console.log(a)
+  c = a + b;
+  a = b;
+  b = c;
+
+}
  
 
 
