@@ -3,7 +3,16 @@ const ejercicio1 = [
   19, 88, 456, 13, 23, 24,
 ];
 
-//console.log (ejercicio1)
+for(i=0;i<ejercicio1.length;i++){
+  num = ejercicio1[i]
+  if (num ===3 ){
+console.log(num)
+  }
+  else if(num % 2 != 0 && num % 5 != 0 && num % 3 != 0 && num % 7 != 0){
+    console.log (num)
+  }
+}
+
 
 const ejercicio2 = [
   {nombre: "Gabriel", edad: 22, esFamiliar: false,
@@ -19,7 +28,7 @@ const ejercicio2 = [
   {nombre: "Rachel", edad: 30, esFamiliar: true,
   },
 ];
-
+/*
 for (i=0; i<ejercicio2.length;i++){
   if (ejercicio2[i].edad >= 18 && ejercicio2[i].esFamiliar === true) {
     console.log(`Puede pasar ${ejercicio2[i].nombre}`);
@@ -27,7 +36,7 @@ for (i=0; i<ejercicio2.length;i++){
   //console.log(ejercicio2[i].nombre)
 }
 
-
+*/
 
 
  
